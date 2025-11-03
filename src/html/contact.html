@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#232010] dark group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#4a4421] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Urban Nest</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Buy</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Rent</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Sell</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Mortgages</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Find an Agent</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#4a4421] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Sign in</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Contact Us</p></div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Name</p>
+                <input
+                  placeholder="Enter your name"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#6a612f] bg-[#353018] focus:border-[#6a612f] h-14 placeholder:text-[#ccc38e] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Email</p>
+                <input
+                  placeholder="Enter your email"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#6a612f] bg-[#353018] focus:border-[#6a612f] h-14 placeholder:text-[#ccc38e] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Phone Number</p>
+                <input
+                  placeholder="Enter your phone number"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#6a612f] bg-[#353018] focus:border-[#6a612f] h-14 placeholder:text-[#ccc38e] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Message</p>
+                <textarea
+                  placeholder="Enter your message"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#6a612f] bg-[#353018] focus:border-[#6a612f] min-h-36 placeholder:text-[#ccc38e] p-[15px] text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#fbe151] text-[#232010] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Submit</span>
+              </button>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Location</h2>
+            <div class="flex px-4 py-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg object-cover"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDoLdYGg1bRUD_cgxUeyISYMD9NOo-wf6v65njFi-uN8vr9p4Unxl2x-2832qIKVfRpUKkmM0uWpX1jK8jD_OB6izgFd9IUxWnH8vid49EQBl5Mgxlt8gSq2_J9aOP9hbTMfO3Mm51CZBGaZ3C7VdD5Bqr-LsvZiliwKjSTQvZ9qLA2zlrDL__5y8q6LY2fVga_Uqc0rd5HZ5pRY9czKmHvaFqMu4Vx8JYGhNHe31F8A7DfxzAHfuL86a7M808gUmtRj1DierR2gz4");'
+              ></div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Contact Information</h2>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">Address: 123 Main Street, San Francisco, CA 94105</p>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">Phone: (415) 555-1234</p>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">Email: info@urbannest.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
